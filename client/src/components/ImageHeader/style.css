@@ -1,0 +1,59 @@
+.imageHeader {
+  height: 480px;
+  padding: 25px 150px;
+  background: url(http://i.imgur.com/E33R3EK.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.imageHeader .details {
+  padding: 25px 0;
+  width: 45%;
+}
+.imageHeader .details .rating {
+  display: inline-block;
+  font-size: 22px;
+  color: #ea292e;
+}
+.imageHeader .details .year,
+.imageHeader .details .seasons {
+  padding: 0 0 0 20px;
+  display: inline-block;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.imageHeader .details .description {
+  padding: 25px 0 0 0;
+  font-size: 15px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.95);
+}
+.imageHeader .details .button {
+  margin: 25px 20px 0 0;
+}
+
+.button {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 13px 35px;
+  border-radius: 7px;
+}
+.button.red {
+  background: rgba(230, 45, 53, 0.5);
+}
+.button.red:hover {
+  background: rgba(230, 45, 53, 0.75);
+}
+.button.red:active {
+  background: rgba(230, 45, 53, 0.9);
+}
+.button.plain {
+  background: rgba(255, 255, 255, 0.15);
+}
+.button.plain:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+.button.plain:active {
+  background: rgba(255, 255, 255, 0.45);
+}

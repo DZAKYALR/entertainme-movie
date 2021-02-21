@@ -1,0 +1,30 @@
+.player-wrapper {
+    position:relative;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+  }
+  
+  .react-player {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .amazing {
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 13px 35px;
+        border-radius: 7px;
+  }
+
+  .amazing.plain {
+    background: rgba(255, 255, 255, 0.15);
+  }
+  .amazing.plain:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .amazing.plain:active {
+    background: rgba(255, 255, 255, 0.45);
+  }
